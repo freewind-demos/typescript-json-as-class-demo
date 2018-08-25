@@ -1,4 +1,4 @@
-import * as data from './data.json'
+import data from './data.json'
 
 class Lang {
     name: string
@@ -8,6 +8,7 @@ class Lang {
         this.name = name
         this.description = description
     }
+
 }
 
 const langs = <Array<Lang>>data
