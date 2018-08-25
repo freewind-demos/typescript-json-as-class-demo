@@ -1,9 +1,7 @@
-TypeScript Hello World Demo
-============================
+TypeScript Treat JSON Data as Classes Demo
+==========================================
 
 ```
 npm install
 npx ts-node hello.ts
 ```
-
-It will print `Hello, TypeScript!`

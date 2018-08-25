@@ -1,3 +1,15 @@
-import {capitalize} from 'lodash';
+import * as data from './data.json'
 
-console.log("Hello " + capitalize("typescript") + "!");
+class Lang {
+    name: string
+    description?: string
+
+    constructor(name: string, description?: string) {
+        this.name = name
+        this.description = description
+    }
+}
+
+const langs = <Array<Lang>>data
+
+console.log(langs.map(l => l.name))
